@@ -35,8 +35,6 @@ class Admin extends Component {
                 position: toast.POSITION.BOTTOM_LEFT
               });
               console.log('Post http status =' + res.status);
-              this.setState({name: name, email: email, statusCode: 0, status: null});
-
             } 
             else {
               toast.error("Error adding student", {
