@@ -31,7 +31,7 @@ const AddStudent = ({ addStudent }) => {
 
   return (
     <div>
-      <Button variant="outlined" color="primary" style={{ margin: 10 }} onClick={handleClickOpen}>
+      <Button variant="outlined" id="open_add_dialog"color="primary" style={{ margin: 10 }} onClick={handleClickOpen}>
         Add Student
       </Button>
       <Dialog open={open} onClose={handleClose}>
@@ -41,8 +41,8 @@ const AddStudent = ({ addStudent }) => {
           <TextField fullWidth label="Email" name="email" onChange={(e) => setStudentEmail(e.target.value)} />
         </DialogContent>
         <DialogActions>
-          <Button color="secondary" onClick={handleClose}>Cancel</Button>
-          <Button color="primary" onClick={handleAdd}>Add</Button>
+          <Button color="secondary" id="Cancel" onClick={handleClose}>Cancel</Button>
+          <Button color="primary" id="Add"onClick={handleAdd}>Add</Button>
         </DialogActions>
       </Dialog>
     </div>
