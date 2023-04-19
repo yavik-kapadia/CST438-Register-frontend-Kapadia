@@ -18,34 +18,6 @@ Material-UI
 Folder Structure
 
 The repository is structured as follows:
-.
-├── public
-│   ├── index.html
-│   ├── favicon.ico
-│   └── ...
-├── src
-│   ├── App.js
-│   ├── index.js
-│   ├── components
-│   │   ├── Navbar.js
-│   │   ├── Login.js
-│   │   ├── Registration.js
-│   │   └── ...
-│   ├── pages
-│   │   ├── Home.js
-│   │   ├── Login.js
-│   │   ├── Register.js
-│   │   └── ...
-│   ├── styles
-│   │   ├── globalStyles.js
-│   │   ├── loginStyles.js
-│   │   ├── registerStyles.js
-│   │   └── ...
-│   └── ...
-├── package.json
-├── README.md
-└── ...
-
 
 public: contains the public assets for the application, including the HTML file, favicon, and other assets.
 src: contains the source code for the application.
