@@ -27,7 +27,7 @@ pages: contains the pages of the application.
 styles: contains the styles for the application.
 Contributing
 
-This project is not open to contributions at this time.
+** This project is not open to contributions at this time. ** 
 
 ## Authors
 
