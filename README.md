@@ -13,9 +13,9 @@ This will start the frontend on http://localhost:3000.
 
 ## Technologies Used
 
-ReactJS
-Material-UI
-Folder Structure
+- ReactJS
+- Material-UI
+- Folder Structure
 
 ## The repository is structured as follows:
 
